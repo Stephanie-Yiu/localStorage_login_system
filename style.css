@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;800&display=swap');
+
+/* font-family: 'Montserrat', sans-serif; */
+
+:root {
+  --drak-color-text: #071e22;
+  --mid-color: #1d7874;
+  --lighter-color: #679289;
+  --pale-salon-color: #f4c095;
+  --higherlight-red: #ee2e31;
+}
+
+body {
+  box-sizing: border-box;
+  color: var(--drak-color-text) !important;
+}
+
+.login-page {
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--lighter-color);
+}
+
+.content_center {
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 250px;
+  height: 150px;
+  border: 1px solid var(--mid-color);
+}
+
+.logout_btn {
+  border: none !important;
+  background-color: var(--lighter-color);
+  color: var(--pale-salon-color);
+  border-radius: 100%;
+  margin: 50px auto !important;
+  text-align: center !important;
+  text-indent: 20% !important;
+}
+
+#Welocome_Text {
+  color: #174952 !important;
+}
